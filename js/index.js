@@ -31,7 +31,7 @@ function fibArray(n){
 
 //Recursion
 function fibRecursion(n) {
-    if (n <= 1) {
+    if (n < 2) {
         return n;
 	}
 	    return fibRecursion(n - 1) + fibRecursion(n - 2);
